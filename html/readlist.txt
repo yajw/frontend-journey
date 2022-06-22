@@ -1,0 +1,104 @@
+MDN
+
+# ch1
+
+front end web developer:
+https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer
+
+Web best practices
+- cross browser compatibility
+- responsive web design
+- performance
+- accessibility
+- i18n
+- Privacy & Security
+
+tools: https://jsbin.com/?html,css,js,output
+
+learning methods: focused thinking or diffuse thinking
+
+
+# ch2
+
+https://developer.mozilla.org/en-US/docs/Web/HTML
+
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML
+
+web content:
+- html: structure & content
+- css: appearance
+- js: functionality & behavior
+
+elements: <header>, case-insensitive
+
+## ch2.1 basics of HTML
+element: 
+- opening tag
+- content
+- closing tag
+
+`<em> <i> <cite>`
+
+nesting: elements can be placed within other elements
+
+`<strong>`
+
+block vs inline elements
+- content inside a block element appears on a new line
+- inline elements are contained within block elements
+
+empty elements
+- `<img src="file.png">`
+
+attributes: extra information that won't appear in the content
+
+<a>
+- href: web address
+- title: appear as a tooltip
+- target: browsing context
+
+boolean attributes: `<input type="text" disabled>`
+
+`&apos;`
+
+
+anatomy of an html document
+- `<!DOCTYPE html>`
+- root element `<html></html>`
+- `<head></head>` container for everything you want to include on the HTML page
+- `<body></body>` content of the page
+
+
+whitespaces
+
+
+special characters in HTML
+
+
+comments : `<!-- -->`
+
+## ch2.2 metadata in HTML
+
+the head's job is to contain metadata of the document
+
+metadata is the data that describes data
+
+`<meta name="" content="">`
+
+description meta tag is used in search engine: <meta name="description" content="">
+keywords meta tag is not used
+
+sitelinks: https://search.google.com/search-console/about?hl=en
+
+metadata protocol: open graph data of facebook, twitter cards
+
+favicon: `<link rel="icon" href="favicon.ico" type="image/x-icon">`
+
+css: `<link rel="stylesheet" href="my-css-file.css">`
+js: `<script src="my-js-file.js" defer></script>`
+
+language: `<html lang="en-US">` 
+- search engines
+- accessibility
+
+
